@@ -3,9 +3,12 @@
 <h3>CommandAutomator</h3>
 <p>Command automation tool is a function which records all commands terminated in linux bash terminal and converts them into bash file. When a sequence is fed into the program, all commands execute simultaneously in real time. It allows creating a script and adapt it to specific cases. It is possible to interact with other pentesting applications, as they also interact with the user thanks to bash.</p>
 <p>To save your sequence type: <code>savesqnc example.sh</code> as input, where 'example' is your script name.</p>
-<!---
-screenshot
--->
+
+![Screenshot](Screenshots/automatorExample.png)
+
+<p>The output file <code>example.sh</code> and <code>test.txt</code> are stored in desired directory.</p>
+
+![Screenshot](Screenshots/AutomatorFiles.png)
 <h3>NetworkRipper</h3>
 <p>This automation kit is based on the use of the following tools:</p>
 <ol>
