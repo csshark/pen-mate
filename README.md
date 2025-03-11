@@ -13,10 +13,13 @@
 <p>This automation kit is based on the use of the following tools:</p>
 <ol>
   <li><a href="https://www.scapy.net">Scapy</a></li>
-  <li>Second item</li>
-  <li>Third item</li>
-  <li>Fourth item</li>
+  <li><a href="https://github.com/derv82/wifite?tab=readme-ov-file">Wifite</a></li>
+  <li><a href="https://github.com/csshark/sdr-cap/tree/main">Custom Sniffer Light Driver (modified driver from SDR-CAP project)</a></li>
+  <li><a href="https://nmap.org/">Nmap</a></li>
+  <li><a href="https://www.bettercap.org/">Bettercap</a></li>
+  <li><a href="">Custom Signal Spectrum Capture Tool</a></li>
 </ol>
+<p>AI agent-like interaction has been introduced. Your input does not have to be identical to the one displayed in the list of supported commands. NetworkRipper is the biggest module of all from PenMate and has a lot of feautures, in case it is hard to develop new original solution, tool automates some of the most common tedious processes executed manually and provides customization of running the comamnds. By veryfing user parameters tools adapts to them by recommending and executing best scripts configuration possible.</p>
 <h2>Installation:</h2>
 <p>Toolset comes as a debian package. To install it properly use <code>dpkg</code>command:</p>
 <pre><code>sudo dpkg -i pen-mate</code></pre>
