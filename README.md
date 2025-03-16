@@ -20,6 +20,7 @@
   <li><a href="">Custom Signal Spectrum Capture Tool</a></li>
 </ol>
 <p>AI agent-like interaction has been introduced. Your input does not have to be identical to the one displayed in the list of supported commands. NetworkRipper is the biggest module of all from PenMate and has a lot of feautures, in case it is hard to develop new original solution, tool automates some of the most common tedious processes executed manually and provides customization of running the comamnds. By veryfing user parameters tools adapts to them by recommending and executing best scripts configuration possible.</p>
+<p>With NetworkRipper penetration testers have to enter the goal and the application gives possible solutions based on keywords (for more complex tasks, give as many keywords as possible). All executed commands are displayed, so user has whole access to what has been executed. Many custom C drivers and solutions has been introduced and are distributed as open-source. </p>
 <h2>Installation:</h2>
 <p>Toolset comes as a debian package. To install it properly use <code>dpkg</code>command:</p>
 <pre><code>sudo dpkg -i pen-mate</code></pre>
