@@ -6,7 +6,7 @@
 
 ![Screenshot](Screenshots/automatorExample.png)
 
-<p>The output file <code>example.sh</code> and <code>test.txt</code> are stored in desired directory.</p>
+<p>The output file <code>example.sh</code> and <code>test.txt</code>(created by touch command) are stored in desired directory.</p>
 
 ![Screenshot](Screenshots/AutomatorFiles.png)
 <h3>NetworkRipper</h3>
