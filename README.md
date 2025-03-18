@@ -24,8 +24,10 @@
 <p>Example usage:</p>
 
 ![Screenshot](Screenshots/nripper.png)
-
-
+<h3>Quick navigation tips:</h3>
+<p>Returning to previous selection: Ctrl + C shortcut.</p>
+<p>Exiting application: Ctrl + Z shortcut.</p>
+<p>Displaying logo: <code>logo</code> command.</p>
 <h2>Installation:</h2>
 <p>Toolset comes as a debian package. To install it properly use <code>dpkg</code>command:</p>
 <pre><code>sudo dpkg -i pen-mate</code></pre>
