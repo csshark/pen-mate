@@ -27,6 +27,8 @@
 <h3>Quick navigation tips:</h3>
 <p>Returning to previous selection: Ctrl + C shortcut.</p>
 <p>Exiting application: Ctrl + Z shortcut.</p>
+<p>Changing wireless network interface mode: <code>nicmode monitor</code>/<code>managed</code>
+<p>Localhost security state: <code>state</code></p>
 <p>Displaying logo: <code>logo</code> command.</p>
 <h2>Installation:</h2>
 <p>Toolset comes as a debian package. To install it properly use <code>dpkg</code>command:</p>
