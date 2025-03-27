@@ -17,17 +17,24 @@
   <li><a href="https://github.com/csshark/sdr-cap/tree/main">Custom Sniffer Light Driver (modified driver from SDR-CAP project)</a></li>
   <li><a href="https://nmap.org/">Nmap</a></li>
   <li><a href="https://www.bettercap.org/">Bettercap</a></li>
-  <li><a href="">Custom Signal Spectrum Capture Tool</a></li>
+  <li>Custom Signal Spectrum Capture Tool</li>
+  <li>Custom CVE Scanner</li>
 </ol>
 <p>AI agent-like interaction has been introduced. Your input does not have to be identical to the one displayed in the list of supported commands. NetworkRipper is the biggest module of all from PenMate and has a lot of feautures, in case it is hard to develop new original solution, tool automates some of the most common tedious processes executed manually and provides customization of running the comamnds. By veryfing user parameters tools adapts to them by recommending and executing best scripts configuration possible.</p>
-<p>With NetworkRipper penetration testers have to enter the goal and the application gives possible solutions based on keywords (for more complex tasks, give as many keywords as possible). All executed commands are displayed, so user has whole access to what has been executed. Many custom C drivers and solutions has been introduced and are distributed as open-source.</p> 
+<p>With NetworkRipper penetration testers have to enter the goal and the application gives possible solutions based on keywords (for more complex tasks, give as many keywords as possible). All executed commands are displayed, so user has whole access to what has been executed. CVE scanner works only for local software/services <b>it won't</b> rely on your open ports and website to found injection attacks possibilities - that is why web application penetration testers exist. Many custom C drivers and solutions has been introduced and are distributed as open-source.</p> 
 <p>Example usage:</p>
 
 ![Screenshot](Screenshots/nripper.png)
+
+<h3>WebExposer</h3>
+<p>Module dedicated to web penetration testing. It checks for common vulnerabilities such as XSS, SQL injection attacks, POST/GET manipulation. It is supported by Python program that finds endpoints and performs fuzzing with some well-known payloads. Another WAP Tools are recommended, user should not rely on webExposer only. AI web agent is going to be introduced in version 2.0. Recommended Tools to use with this module: <a href="https://caido.io/">CAIDO</a>.</p>
+
+<h3>IoT Sentinel</h3>
+<p></p>
 <h3>Quick navigation tips:</h3>
 <p>Returning to previous selection: Ctrl + C shortcut.</p>
 <p>Exiting application: Ctrl + Z shortcut.</p>
-<p>Changing wireless network interface mode: <code>nicmode monitor</code>/<code>managed</code>
+<p>NetworkRipper: Changing wireless network interface mode: <code>nicmode monitor</code>/<code>managed</code>
 <p>Localhost security state: <code>state</code></p>
 <p>Displaying logo: <code>logo</code> command.</p>
 <h2>Installation:</h2>
