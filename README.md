@@ -1,6 +1,6 @@
 # PenMate (in progress)
 <p>Toolset has its own sections of tools to perform specific actions. Here you can find all information about the toolset and what does it include. It has been developed to support my own work while performing penetration tests on virtual machines. It relies on already existing tools and includes custom implementations of some functionalities. The project is being supported as it is developed and integrated with the latest penetration testing tools over the next 2 years. It is intended to support repetitive processes that take too long to execute manually. A detailed description of each section and what tools they use is below:</p>
-<h3>CommandAutomator</h3>
+<h3>CommandAutomator ⚙️</h3>
 <p>Command automation tool is a function which records all commands terminated in linux bash terminal and converts them into bash file. When a sequence is fed into the program, all commands execute simultaneously in real time. It allows creating a script and adapt it to specific cases. It is possible to interact with other pentesting applications, as they also interact with the user thanks to bash.</p>
 <p>To save your sequence type: <code>savesqnc example.sh</code> as input, where 'example' is your script name.</p>
 
@@ -9,7 +9,7 @@
 <p>The output file <code>example.sh</code> and <code>test.txt</code>(created by touch command) are stored in desired directory.</p>
 
 ![Screenshot](Screenshots/AutomatorFiles.png)
-<h3>NetworkRipper</h3>
+<h3>NetworkRipper 🔪˒﹚)</h3>
 <p>This automation kit is based on the use of the following tools:</p>
 <ol>
   <li><a href="https://www.scapy.net">Scapy</a></li>
@@ -26,15 +26,17 @@
 
 ![Screenshot](Screenshots/nripper.png)
 
-<h3>WebExposer</h3>
+<h3>WebExposer 🌐👾</h3>
 <p>Module dedicated to web penetration testing. It checks for common vulnerabilities such as XSS, SQL injection attacks, POST/GET manipulation. It is supported by Python program that finds endpoints and performs fuzzing with some well-known payloads. Another WAP Tools are recommended, user should not rely on webExposer only. AI web agent is going to be introduced in version 2.0. Recommended Tools to use with this module: <a href="https://caido.io/">CAIDO</a>.</p>
 
-<h3>IoT Sentinel</h3>
+<h3>IoT Sentinel 🔒🕊️</h3>
 <p>Verify your connection security with IoT devices via scanning for anomalies in msqtt protocol config (disabled encryption/redirection/authentication or authorization breakdowns and topic security). There was also a tool for direct hardware verification - the .bin file scanner recognizes the type of firmware and looks for values that may have been modified, verifies hashes and simulates the restoration of the (partially) components of the file. It is "first layer tool" in case of suspicious behavior of IoT devices.</p>
 
 ![Screenshot](Screenshots/BOOTGEN-CHECK-RESULT.png)
 
 ##### Example .bin file structure and component files.
+
+<p>Remember to give the scanner proper permissions to read firmware files (they are usually restricted).</p>
 
 <h3>Quick navigation tips:</h3>
 <p>Returning to previous selection: Ctrl + C shortcut.</p>
