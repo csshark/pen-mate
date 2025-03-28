@@ -30,7 +30,12 @@
 <p>Module dedicated to web penetration testing. It checks for common vulnerabilities such as XSS, SQL injection attacks, POST/GET manipulation. It is supported by Python program that finds endpoints and performs fuzzing with some well-known payloads. Another WAP Tools are recommended, user should not rely on webExposer only. AI web agent is going to be introduced in version 2.0. Recommended Tools to use with this module: <a href="https://caido.io/">CAIDO</a>.</p>
 
 <h3>IoT Sentinel</h3>
-<p></p>
+<p>Verify your connection security with IoT devices via scanning for anomalies in msqtt protocol config (disabled encryption/redirection/authentication or authorization breakdowns and topic security). There was also a tool for direct hardware verification - the .bin file scanner recognizes the type of firmware and looks for values that may have been modified, verifies hashes and simulates the restoration of the (partially) components of the file. It is "first layer tool" in case of suspicious behavior of IoT devices.</p>
+
+![Screenshot](Screenshots/BOOTGEN-CHECK-RESULT.png)
+
+##### Example .bin file structure and component files.
+
 <h3>Quick navigation tips:</h3>
 <p>Returning to previous selection: Ctrl + C shortcut.</p>
 <p>Exiting application: Ctrl + Z shortcut.</p>
