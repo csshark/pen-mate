@@ -46,7 +46,7 @@
 <p>Displaying logo: <code>logo</code> command.</p>
 <h2>Installation:</h2>
 <p>Toolset comes as a debian package. To install it properly use <code>dpkg</code>command:</p>
-<pre><code>sudo dpkg -i pen-mate</code></pre>
+<pre><code>sudo dpkg -i penmate</code></pre>
 
 <h2>License</h2>
 <p>This project is licensed under the GPLv2 License in accordance with licensed open-source tools icnluded in product. See the <a href="LICENSE">LICENSE</a> file for details.</p>
