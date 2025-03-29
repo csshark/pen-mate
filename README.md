@@ -27,7 +27,7 @@
 ![Screenshot](Screenshots/nripper.png)
 
 <h3>WebExposer 🌐👾</h3>
-<p>Module dedicated to web penetration testing. It checks for common vulnerabilities such as XSS, SQL injection attacks, POST/GET manipulation. It is supported by Python program that finds endpoints and performs fuzzing with some well-known payloads. Another WAP Tools are recommended, user should not rely on webExposer only. AI web agent is going to be introduced in version 2.0. Recommended Tools to use with this module: <a href="https://caido.io/">CAIDO</a>. API endpoints + payload scanner relies on wordlist based on 10 000+ web paths possibilities, which makes process time-consuming, especially when user decides to perform extended scan.</p>
+<p>Module dedicated to web penetration testing. It checks for common vulnerabilities such as XSS, SQL injection attacks, POST/GET manipulation. It is supported by Python program that finds endpoints and performs fuzzing with some well-known payloads. Another WAP Tools are recommended, user should not rely on webExposer only. AI web agent is going to be introduced in version 2.0. Recommended Tools to use with this module: <a href="https://caido.io/">CAIDO</a>. API endpoints + payload scanner relies on wordlists which user can choose from those included in the toolset or use his own. </p>
 
 <h3>IoT Sentinel 🔒🕊️</h3>
 <p>Verify your connection security with IoT devices via scanning for anomalies in msqtt protocol config (disabled encryption/redirection/authentication or authorization breakdowns and topic security). There was also a tool for direct hardware verification - the .bin file scanner recognizes the type of firmware (if not specified) and looks for values that may have been modified, verifies hashes and simulates the restoration of the (partially) components of the file. It is "first layer tool" in case of suspicious behavior of IoT devices. RTOS/Linux/Realtek and some of the popular firmware is recognized in this module. Also can be used to verify firmware embedded systems from trusted vendors (e.g. Analog Devices/Avnet). This module allows the user to perform a diagnosis of the connection of a given IoT device.</p>
@@ -48,3 +48,5 @@
 <p>Toolset comes as a debian package. To install it properly use <code>dpkg</code>command:</p>
 <pre><code>sudo dpkg -i pen-mate</code></pre>
 
+<h2>License</h2>
+<p>This project is licensed under the AGPL License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
