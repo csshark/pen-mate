@@ -1,4 +1,4 @@
-# PenMate (in progress)
+# PenMate
 <p>Toolset has its own sections of tools to perform specific actions. Here you can find all information about the toolset and what does it include. It has been developed to support my own work while performing penetration tests on virtual machines. It relies on already existing tools and includes custom implementations of some functionalities. The project is being supported as it is developed and integrated with the latest penetration testing tools over the next 2 years. It is intended to support repetitive processes that take too long to execute manually. Chceck launch variants with <code>penmate -h</code>. A detailed description of each section and what tools they use is below:</p>
 <h3>CommandAutomator ⚙️</h3>
 <p>Command automation tool is a function which records all commands terminated in linux bash terminal and converts them into bash file. When a sequence is fed into the program, all commands execute simultaneously in real time. It allows creating a script and adapt it to specific cases. It is possible to interact with other pentesting applications, as they also interact with the user thanks to bash.</p>
