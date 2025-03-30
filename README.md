@@ -45,8 +45,9 @@
 <p>Localhost security state: <code>state</code></p>
 <p>Displaying logo: <code>logo</code> command.</p>
 <h2>Installation:</h2>
-<p>Toolset comes as a debian package. To install it properly use <code>dpkg</code>command:</p>
-<pre><code>sudo dpkg -i penmate</code></pre>
+<p>It is amateur tool to refresh some programming in Python and C++ so it requires manual compilation via g++:</p>
+<code>g++ -o PenMate main.cpp obtainipaddr.cpp firmwareVerifier.cpp -lcurl -lmosquitto -lssl -lcrypto</code>
+<p>There are also flags for launching tool help like in debian package, but I was too lazy to fix all the paths to .deb structure. I am penetration tester, not a sw developer.</p>
 
 <h2>License</h2>
 <p>This project is licensed under the GPLv2 License in accordance with licensed open-source tools icnluded in product. See the <a href="LICENSE">LICENSE</a> file for details.</p>
