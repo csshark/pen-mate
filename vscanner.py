@@ -5,7 +5,7 @@ from datetime import datetime
 import time
 
 # Define the path to the extracted CVE directory
-CVE_DIR = "/penmate/usr/share/penmate/resources/CVEs"
+CVE_DIR = input('enter path to "CVEs" directory:') 
 
 def get_installed_software():
     """
