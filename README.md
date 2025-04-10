@@ -50,4 +50,4 @@
 <p>There are also flags for launching tool help like in debian package, but I was too lazy to fix all the paths to .deb structure. I am penetration tester, not a sw developer.</p>
 
 <h2>License</h2>
-<p>This project is licensed under the GPLv2 License in accordance with licensed open-source tools icnluded in product. See the <a href="LICENSE">LICENSE</a> file for details.</p>
+<p>This project is licensed under the GPLv2 License in accordance with licensed open-source tools included in product. See the <a href="LICENSE">LICENSE</a> file for details.</p>
